@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   User.init({
-    uuid: DataTypes.UUIDV4,
+    uuid: DataTypes.UUID,
     snowflake: DataTypes.STRING
   }, {
     sequelize,

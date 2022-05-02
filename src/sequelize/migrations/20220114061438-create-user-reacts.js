@@ -11,7 +11,7 @@ module.exports = {
       uuid: {
         allowNull: false,
         unique: true,
-        type: Sequelize.UUIDV4
+        type: Sequelize.UUID
       },
       messageSnowflake: {
         allowNull: false,
@@ -19,15 +19,15 @@ module.exports = {
       },
       userUuid: {
         allowNull: false,
-        type: Sequelize.UUIDV4
+        type: Sequelize.UUID
       },
       reactorUuid: {
         allowNull: false,
-        type: Sequelize.UUIDV4
+        type: Sequelize.UUID
       },
       emoteUuid: {
         allowNull: false,
-        type: Sequelize.UUIDV4
+        type: Sequelize.UUID
       },
       createdAt: {
         allowNull: false,

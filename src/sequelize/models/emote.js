@@ -14,7 +14,7 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   Emote.init({
-    uuid: DataTypes.UUIDV4,
+    uuid: DataTypes.UUID,
     isCustom: DataTypes.BOOLEAN,
     customId: DataTypes.STRING,
     unicodeValue: DataTypes.STRING

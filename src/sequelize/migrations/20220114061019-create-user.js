@@ -11,7 +11,7 @@ module.exports = {
       uuid: {
         unique: true,
         allowNull: false,
-        type: Sequelize.UUIDV4
+        type: Sequelize.UUID
       },
       snowflake: {
         unique: true,
